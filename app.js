@@ -8,7 +8,7 @@ switch (accion) {
     case "listar":
         listarTareas()
         break;
-    case "agregar":
+    case "+":
         let descripcion = process.argv[3];
         if(!descripcion){
             console.log("Debe agregar una descripción");
